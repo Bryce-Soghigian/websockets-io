@@ -1,0 +1,30 @@
+{
+  "name": "websockets-io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon .",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bryce-Soghigian/websockets-io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bryce-Soghigian/websockets-io/issues"
+  },
+  "homepage": "https://github.com/Bryce-Soghigian/websockets-io#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "node-tweet-stream": "^2.0.3",
+    "nodemon": "^2.0.2",
+    "socket.io": "^2.3.0",
+    "twit": "^2.2.11",
+    "twitter": "^1.7.1"
+  }
+}
